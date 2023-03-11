@@ -1,0 +1,22 @@
+{
+  "name": "get-web-page",
+  "version": "1.0.0",
+  "description": "Takes a screenshot and saves an HTML page using Puppeteer. SOCKS5 support include.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxrcode/Get-Web-Page.git"
+  },
+  "author": "mxrcode",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "puppeteer": "^19.7.4"
+  },
+  "bugs": {
+    "url": "https://github.com/mxrcode/Get-Web-Page/issues"
+  },
+  "homepage": "https://github.com/mxrcode/Get-Web-Page#readme"
+}
