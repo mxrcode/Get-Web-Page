@@ -17,9 +17,9 @@ const userAgent = process.argv[4];
 const proxy = process.argv[5];
 const username = process.argv[6];
 const password = process.argv[7];
-const takeScreenshot = !process.argv.includes('--no-screenshot');
 const screenshotPath = process.argv[8] || 'screenshot.png';
 const pageHtmlPath = process.argv[9] || 'page.html';
+const takeScreenshot = process.argv.includes('--screenshot');
 
 async function run () {
     let browser;
