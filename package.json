@@ -13,7 +13,8 @@
   "author": "mxrcode",
   "license": "GPL-3.0",
   "dependencies": {
-    "puppeteer": "^19.7.4"
+    "puppeteer": "^19.7.4",
+    "yargs": "^17.7.1"
   },
   "bugs": {
     "url": "https://github.com/mxrcode/Get-Web-Page/issues"
